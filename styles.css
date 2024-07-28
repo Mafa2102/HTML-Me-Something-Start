@@ -1,1 +1,107 @@
 /* Write your CSS here! */
+body {
+    color: black;
+    background: url('./images/breakfast.jpg') fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    padding: 0 10vw;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: justify;
+}
+
+header, footer{
+    color: white;
+    background: rgb(174, 131, 176);
+    padding: 10px 30px;
+}
+
+main{
+    background-color: white;
+    padding: 30px;
+}
+
+.aligncenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.wp-block-image img {
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+h3, h4{
+    color: white;
+    background: linear-gradient(to right, rgb(174, 131, 176), white) ;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 6px;
+}
+
+h3, h4{
+    margin: 30px 0 0;
+}
+
+.funParagraph{
+    color: green;
+}
+
+
+#mainHeading{
+    color: red;
+}
+
+ul{
+    list-style-type: square;
+}
+
+a{
+    cursor: pointer;
+}
+
+a{
+    color: rgb(86, 194, 190);
+    transition: all 0.1s linear;
+}
+
+a:hover {
+    text-decoration: none !important; /* Remove underline */
+    color: #c48bbe !important; /* Change text color on hover */
+    -webkit-transition: all 0.2s ease-in-out; /* Smooth transition for WebKit browsers */
+    -moz-transition: all 0.2s ease-in-out; /* Smooth transition for Firefox */
+    -ms-transition: all 0.2s ease-in-out; /* Smooth transition for Edge */
+    -o-transition: all 0.2s ease-in-out; /* Smooth transition for Opera */
+    transition: all 0.2s ease-in-out; /* Smooth transition */
+}
+
+#schedule{
+    width: 60%;
+    min-width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    outline: 8px double rgb(65, 19, 67);
+}
+
+#extra-space-below{
+    margin-bottom: 40px;
+}
