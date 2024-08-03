@@ -6,7 +6,8 @@ body {
     width: 100vw;
     padding: 0 10vw;
     box-sizing: border-box;
-    margin: 0;
+    margin: 8px;
+    display: block;
     text-align: justify;
 }
 
@@ -47,6 +48,7 @@ h2{
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 20px 0;
+    color: white;
 }
 
 h3, h4{
@@ -85,12 +87,12 @@ a{
 }
 
 a:hover {
-    text-decoration: none !important; /* Remove underline */
-    color: #c48bbe !important; /* Change text color on hover */
-    -webkit-transition: all 0.2s ease-in-out; /* Smooth transition for WebKit browsers */
-    -moz-transition: all 0.2s ease-in-out; /* Smooth transition for Firefox */
-    -ms-transition: all 0.2s ease-in-out; /* Smooth transition for Edge */
-    -o-transition: all 0.2s ease-in-out; /* Smooth transition for Opera */
+    text-decoration: none; /* Remove underline */
+    color: #c48bbe; /* Change text color on hover */
+    /* -webkit-transition: all 0.2s ease-in-out; /* Smooth transition for WebKit browsers */
+    /* -moz-transition: all 0.2s ease-in-out; Smooth transition for Firefox */
+    /* -ms-transition: all 0.2s ease-in-out; Smooth transition for Edge */
+    /* -o-transition: all 0.2s ease-in-out; Smooth transition for Opera */ 
     transition: all 0.2s ease-in-out; /* Smooth transition */
 }
 
